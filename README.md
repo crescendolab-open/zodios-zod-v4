@@ -68,25 +68,13 @@ It's an axios compatible API client and an optional expressJS compatible API ser
 ## Client and api definitions :
 
 ```bash
-> npm install @zodios/core
+> npm install @crescendolab/core
 ```
 
 or
 
 ```bash
-> yarn add @zodios/core
-```
-
-## Server :
-  
-```bash
-> npm install @zodios/core @zodios/express
-```
-
-or
-
-```bash
-> yarn add @zodios/core @zodios/express
+> yarn add @crescendolab/core
 ```
 
 # How to use it on client side ?
@@ -98,7 +86,7 @@ For an almost complete example on how to use zodios and how to split your APIs d
 Here is an example of API declaration with Zodios.
   
 ```typescript
-import { Zodios } from "@zodios/core";
+import { Zodios } from "@crescendolab/zodios-core-zod-v4";
 import { z } from "zod";
 
 const apiClient = new Zodios(
@@ -214,7 +202,7 @@ for Zod` / `Io-Ts` :
 
 - [x] Axios:
 
-  - Move Axios client to it's own package `@zodios/axios` and keep `@zodios/core` with only common types and helpers
+  - Move Axios client to it's own package `@zodios/axios` and keep `@crescendolab/zodios-core-zod-v4` with only common types and helpers
 
   - Move plugins to `@zodios/axios-plugins`
 
@@ -265,3 +253,11 @@ Also note that Zodios do not embed any dependency. It's your Job to install the 
 Internally Zodios uses these libraries on all platforms :
 - zod
 - axios
+
+# License
+
+Forked from [ecyrbe/zodios-react](https://github.com/ecyrbe/zodios) which is licensed under the [MIT License](https://github.com/ecyrbe/zodios/blob/main/LICENSE)
+
+Copyright © 2025-preset Crescendo Lab Inc.
+
+Licensed under the [Apache License, Version 2.0](https://github.com/crescendolab-open/zodios-zod-v4/blob/main/LICENSE)

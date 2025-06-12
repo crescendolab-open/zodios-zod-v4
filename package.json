@@ -1,5 +1,5 @@
 {
-  "name": "@zodios/core",
+  "name": "@crescendolab/zodios-core-zod-v4",
   "description": "Typescript API client with autocompletion and zod validations",
   "version": "10.9.6",
   "main": "lib/index.js",
@@ -21,16 +21,12 @@
   "files": [
     "lib"
   ],
-  "author": {
-    "name": "ecyrbe",
-    "email": "ecyrbe@gmail.com"
-  },
-  "homepage": "https://github.com/ecyrbe/zodios",
+  "homepage": "https://github.com/crescendolab-open/zodios-react-query-v5",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ecyrbe/zodios.git"
+    "url": "https://github.com/crescendolab-open/zodios-react-query-v5.git"
   },
-  "license": "MIT",
+  "license": "Apache-2.0",
   "keywords": [
     "axios",
     "openapi",
