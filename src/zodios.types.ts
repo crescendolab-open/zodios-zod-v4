@@ -1,21 +1,21 @@
 import axios, { AxiosError, AxiosInstance, AxiosResponse } from "axios";
+import { z } from "zod/v4";
 import type {
-  FilterArrayByValue,
-  MapSchemaParameters,
-  PickDefined,
-  NeverIfEmpty,
-  UndefinedToOptional,
-  PathParamNames,
-  SetPropsOptionalIfChildrenAreOptional,
-  ReadonlyDeep,
-  Merge,
   FilterArrayByKey,
+  FilterArrayByValue,
   IfEquals,
+  MapSchemaParameters,
+  Merge,
+  NeverIfEmpty,
+  PathParamNames,
+  PickDefined,
+  ReadonlyDeep,
   RequiredKeys,
-  UndefinedIfNever,
+  SetPropsOptionalIfChildrenAreOptional,
   Simplify,
+  UndefinedIfNever,
+  UndefinedToOptional,
 } from "./utils.types";
-import z from "zod";
 
 type AxiosRequestConfig = Parameters<typeof axios.request>[0];
 
