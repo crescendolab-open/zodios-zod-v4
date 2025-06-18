@@ -33,7 +33,7 @@ Context.app(api?: ZodiosEndpointDescriptions, options?: ZodiosAppOptions): Zodio
 | enableJsonBodyParser   | boolean                      | enable json body parser - default to true                             |
 | validate               | boolean                      | enable zod input validation - default to true                         |
 | transform              | boolean                      | enable zod input transformation - default to false                    |
-| validationErrorHandler | RouterValidationErrorHandler | error handler for validation errors - default to `defaulErrorHandler` |
+| validationErrorHandler | RouterValidationErrorHandler | error handler for validation errors - default to `defaultErrorHandler` |
 
 ```ts
 type RouterValidationErrorHandler = (

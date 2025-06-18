@@ -20,7 +20,9 @@
   "useGitignore": true,
   "version": "0.2",
   "words": [
+    "axios",
     "jsonplaceholder",
+    "orhun",
     "Zodios"
   ]
 }

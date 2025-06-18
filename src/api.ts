@@ -177,7 +177,7 @@ class ParametersBuilder<T extends ZodiosEndpointParameter[]> {
 /**
  * Simple helper to split your error definitions into multiple files
  * Mandatory to be used when declaring errors appart from your endpoint definitions
- * to enable type inferrence and autocompletion
+ * to enable type inference and autocompletion
  * @param errors - api error definitions
  * @returns the error definitions
  */
@@ -190,7 +190,7 @@ export function makeErrors<ErrorDescription extends ZodiosEndpointError[]>(
 /**
  * Simple helper to split your error definitions into multiple files
  * Mandatory to be used when declaring errors appart from your endpoint definitions
- * to enable type inferrence and autocompletion
+ * to enable type inference and autocompletion
  * @param endpoint - api endpoint definition
  * @returns the endpoint definition
  */

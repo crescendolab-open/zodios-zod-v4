@@ -3,7 +3,7 @@ import { z } from "zod";
 import { devUser, User } from "./users";
 
 /**
- * zod does not handle recusive well, so we need to manually define the schema
+ * zod does not handle recursive well, so we need to manually define the schema
  */
 export type Comment = {
   type_of: string;

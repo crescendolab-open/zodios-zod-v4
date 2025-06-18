@@ -156,7 +156,7 @@ import z from "zod";
 const user = z.object({
   id: z.number(),
   name: z.string(),
-  email: z.string().email(),
+  email: z.email(),
   phone: z.string(),
 });
 

@@ -649,7 +649,7 @@ export type ZodiosEndpointError<T = unknown> = {
 export type ZodiosEndpointErrors = ZodiosEndpointError[];
 
 /**
- * Zodios enpoint definition that should be used to create a new instance of Zodios
+ * Zodios endpoint definition that should be used to create a new instance of Zodios
  */
 export interface ZodiosEndpointDefinition<R = unknown> {
   /**
@@ -695,7 +695,7 @@ export interface ZodiosEndpointDefinition<R = unknown> {
    */
   response: z.ZodType<R>;
   /**
-   * optional response status of the endpoint for sucess, default is 200
+   * optional response status of the endpoint for success, default is 200
    * customize it if your endpoint returns a different status code and if you need openapi to generate the correct status code
    */
   status?: number;
@@ -747,7 +747,7 @@ export type ZodiosPlugin = {
    * there is no error interceptor for request errors
    * @param api - the api description
    * @param config - the config for the request
-   * @param error - the error that occured
+   * @param error - the error that occurred
    * @returns possibly a new response or a new error
    */
   error?: (

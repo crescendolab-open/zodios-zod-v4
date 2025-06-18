@@ -6,7 +6,7 @@ sidebar_position: 2
 
 :::info
 Zodios packages can be installed using your preferred package manager.  
-We only show npm and yarn as they are the most popular.
+We only show npm and pnpm as they are the most popular.
 :::
 
 ## Frontend installation
@@ -65,6 +65,6 @@ install those even in javascript projects
 ```bash npm2yarn
 // if you use express
 npm install --dev @types/express
-// or with nextjs
+// or with next.js
 npm install --dev @types/express @types/react @types/react-dom
 ```
