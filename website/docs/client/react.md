@@ -319,7 +319,7 @@ Else, you'll get the following error:
 import React from "react";
 import { Zodios } from "@zodios/core";
 import { ZodiosHooks } from "@zodios/react";
-import { z } from "zod";
+import { z } from "zod/v4";
 
 const baseUrl = "https://jsonplaceholder.typicode.com";
 const zodios = new Zodios(baseUrl, [...]);

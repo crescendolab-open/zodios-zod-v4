@@ -58,7 +58,7 @@ type RouterValidationErrorHandler = (
 ```ts
 
 import { zodiosContext } from "@zodios/express";
-import z from "zod";
+import { z } from "zod/v4";
 import { userApi } from "../../common/api";
 import { userMiddleware } from "./userMiddleware";
 

@@ -331,7 +331,7 @@ import { createSignal, For, Match, Show, Switch } from "solid-js";
 import { QueryClient, QueryClientProvider } from "@tanstack/solid-query";
 import { makeApi, Zodios } from "@zodios/core";
 import { ZodiosHooks } from "../src";
-import { z } from "zod";
+import { z } from "zod/v4";
 
 // you can define schema before declaring the API to get back the type
 const userSchema = z

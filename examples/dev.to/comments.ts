@@ -1,5 +1,5 @@
 import { makeApi, makeEndpoint } from "../../src/index";
-import { z } from "zod";
+import { z } from "zod/v4";
 import { devUser, User } from "./users";
 
 /**

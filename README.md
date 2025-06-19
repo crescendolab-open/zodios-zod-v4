@@ -87,7 +87,7 @@ Here is an example of API declaration with Zodios.
   
 ```typescript
 import { Zodios } from "@crescendolab/zodios-core-zod-v4";
-import { z } from "zod";
+import { z } from "zod/v4";
 
 const apiClient = new Zodios(
   "https://jsonplaceholder.typicode.com",
